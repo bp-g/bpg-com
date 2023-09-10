@@ -16,7 +16,6 @@
     "astro": "^3.0.12"
   },
   "dependencies": {
-    "@astrojs/netlify": "^3.0.1",
     "@fontsource/space-grotesk": "^4.5.12"
   }
 }
