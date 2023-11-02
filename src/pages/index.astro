@@ -23,7 +23,8 @@ import Layout from '../layouts/Layout.astro';
 						<p class="text-base text-slate-800 dark:text-slate-200">SEND ME A MESSAGE</p>
 					  </div>
 					  <div class="mt-6">
-						<form name="main-contact" action="/success/" method="POST" class="space-y-6" data-netlify="true" netlify-honeypot="website">
+						<form name="main-contact" action="/success/" method="POST" class="space-y-6" data-netlify="true" netlify-honeypot="website"><input type="hidden" name="form-name" value="main-contact" />
+
 						  <div>
 							<label for="full-name" class="sr-only">Full name</label>
 							<input type="text" name="full-name" id="full-name" autocomplete="name" placeholder="FULL NAME" required class="block w-full shadow-sm focus:ring-gray-800 focus:border-gray-800 sm:text-sm rounded-md dark:bg-slate-800 dark:text-slate-200 dark:border-slate-800 dark:focus:ring-slate-200 border-4 border-black bg-stone-50">
