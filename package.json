@@ -20,6 +20,6 @@
     "tailwindcss": "^4.3.2"
   },
   "overrides": {
-    "vite": "^8"
+    "vite": "^8.0.0"
   }
 }
